@@ -13,7 +13,7 @@
 
         <div id="data">
             <label>Product Description:</label>
-            <input type="text" name="product+description"/><br/>
+            <input type="text" name="product_description"/><br/>
 
             <label>List Price: </label>
             <input type="text" name="list_price"/><br/>

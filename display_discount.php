@@ -12,7 +12,7 @@ $discount_price = $list_price - $discount;
 $list_price_formatted = "$". number_format($list_price, 2);
 $discount_percent_formatted = $discount_percent."%";
 $discount_formatted = "$". number_format($discount, 2);
-$disocunt_price_formatted = "$".number_format($discount_price, 2);
+$discount_price_formatted = "$".number_format($discount_price, 2);
 
 ?>
 
@@ -41,7 +41,7 @@ $disocunt_price_formatted = "$".number_format($discount_price, 2);
         <span><?php echo $discount_formatted; ?></span><br>
 
         <label>Discount Price:</label>
-        <span><?php echo $discount_price_formtted; ?></span><br>
+        <span><?php echo $discount_price_formatted; ?></span><br>
     </div>
 </body>
 </html>
